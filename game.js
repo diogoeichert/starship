@@ -5621,7 +5621,7 @@ GameTitle.prototype.render = function () {
 	} else {
 		game.clearScreen("DarkGreen");
 		game.context.drawImage(this.image, this.x, this.y);
-		game.writeCenter("maragato 2011 - 2021", 200);
+		game.writeCenter("maragato 2011", 200);
 
 		if (Math.floor(this.frameCount / 10) % 2 == 0) {
 			game.writeCenter("press button or push space", 280);
